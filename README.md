@@ -1,2 +1,4 @@
 # DactylErgodoxBuild
-A short build description on my dactyl ergodox keyboard
+## Abstract
+This build log details how I was able to build the Dactyl Ergodox from OhKeycaps!
+
