@@ -12,7 +12,7 @@ controllers. I highly recommend joining the discord for OhKeyCaps for any help.
 ## Materials
 If you do buy the DIY kit from OhKeyCaps, then a majority of the items already
 come included for example the diodes, the TRRS jacks, the wrist gels,
-and the PCBs. I strongly
+and the PCBs. I strongly 
 recommend the Amoeba PCBs for this build. The make wiring easy and it looks
 clean in my opinion.  
 
@@ -29,5 +29,4 @@ The two main pieces of software for this build are AVRDudess and Vial. These
 software do run on Linux, Windows, and MacOS. For this documentation, I will be
 writing if the user is using a Linux machine. 
 
-
-
+## References
