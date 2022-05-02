@@ -68,4 +68,20 @@ The two main pieces of software for this build are AVRDudess and Vial. These
 software do run on Linux, Windows, and MacOS. For this documentation, I will be
 writing if the user is using a Linux machine. 
 
+AVRDUDESS: https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/ <br />
+VIAL: https://get.vial.today/
+
+I will also be adding the github repo files for the necessary flashing of the Elite-C
+microcontrollers. 
+
+LEFT EEPROM File: https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/eeprom-lefthand.eep <br />
+RIGHT EEPROM File: https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/eeprom-righthand.eep <br />
+DACTYL PRO MICRO Hex File: https://github.com/Oh-Keycaps/firmwares/blob/main/keyboards/handwired/dactyl_promicro/handwired_dactyl_promicro_via.hex <br />
+
+## Flashing the Microcontroller
+
 ## References
+1. www.ohkeycaps.com
+2. https://github.com/qmk/qmk_firmware
+3. https://github.com/Oh-Keycaps/firmwares
+
