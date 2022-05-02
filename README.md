@@ -78,7 +78,25 @@ LEFT EEPROM File: https://github.com/qmk/qmk_firmware/blob/master/quantum/split_
 RIGHT EEPROM File: https://github.com/qmk/qmk_firmware/blob/master/quantum/split_common/eeprom-righthand.eep <br />
 DACTYL PRO MICRO Hex File: https://github.com/Oh-Keycaps/firmwares/blob/main/keyboards/handwired/dactyl_promicro/handwired_dactyl_promicro_via.hex <br />
 
-## Flashing the Microcontroller
+## Flashing the Microcontroller & Keyboard Key Configuration
+### AVRDUDESS
+Connect your dactyl keyboard to your computer that has the software. I would suggest you connect one hand at a time. 
+
+1. Start by opening up avrdudess.exe by typing `mono avrdudess.exe`.
+2. There are two fields you need to edit: Flash and EEPROM.
+3. For the flash file, use the Hex File above in the Software tab.
+4. For the eeprom file, use the appropriate file that matches the hand you have plugged into your computer.
+5. Now you are ready to flash the microcontroller. You might need to hit the reset key on your keyboard for the flashing to work. 
+6. Repeat for the other hand
+
+### Vial
+When you download the Vial software on Linux, it will come in an AppImage. Change the permissions on the software and execute it like a script
+A. chmod 777 Vial.AppImage
+B. ./Vial.AppImage
+
+Now with Vial open, check to see that all keys are configured correctly by pressing each individual key on the keyboard. 
+At this point, you can create a keymap unique to your liking
+
 
 ## References
 1. www.ohkeycaps.com
